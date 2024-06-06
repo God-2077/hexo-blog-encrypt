@@ -1,4 +1,5 @@
 ```bash
+echo `sed '16a "hexo-blog-encrypt": "*",' package.json`>package.json
 git clone https://github.com/God-2077/hexo-blog-encrypt.git ./node_modules/hexo-blog-encrypt/
 ```
 
